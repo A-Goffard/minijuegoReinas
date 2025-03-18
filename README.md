@@ -33,11 +33,11 @@ El objetivo del juego es colocar 8 reinas en un tablero de ajedrez de 8x8 de man
 
 ## Capturas de pantalla
 
-![Captura de pantalla del juego](screenshot.png)
+![Captura de pantalla del juego](Captura.PNG)
 
 ## Créditos
 
-Desarrollado por [Tu Nombre].
+Desarrollado por Aintzane Goffard.
 
 ## Licencia
 
