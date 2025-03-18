@@ -51,8 +51,10 @@ function manejarClick(event) {
         reinas++;
 
         if (reinas === 8) {
-            alert('¡Ganaste!');
-            reiniciarJuego();
+            setTimeout(() => {
+                alert('¡Ganaste! Puedes reiniciar el juego para jugar de nuevo.');
+            }, 100); // Retraso de 100ms para permitir que el DOM se actualice
+            return;
         }
     } else {
         target.innerHTML = '<div class="error">X</div>';
@@ -68,7 +70,6 @@ function manejarClick(event) {
         }
     }
 }
-
 
 function esSeguro(fila, col) {
     for (let i = 0; i < n; i++) {
